@@ -7,7 +7,144 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden
+}
+
+.main {
+  width: 100%;
+  padding: 1rem;
+}
+
+nav {
+  min-width: 9rem;
+  background: #E9EFEC;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 1.56rem 2.5rem 1.56rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.navigationIconContainer {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  padding: 0 20px;
+  height: 43px;
+}
+
+nav a.active .navigationIconContainer {
+  background-color: #9FF2E0;
+  border-radius: 25px;
+}
+
+.darkMode {
+  display: block;
+  border-radius: 50%;
+  background-color: #9FF2E0;
+  padding: 10px;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 60px;
+  font-size: 14px;
+  color: #49454F;
+  width: 200px;
+  border-bottom: 1px solid #CAC4D0;
+  text-align: left;
+}
+
+.custom-select {
+  width: 200px;
+}
+
+.custom-select .option {
+  text-align: center;
+}
+
+.select-box span {
+  font-size: 16px;
+  color: #1D1B20;
+}
+
+.select-box .options-toggle {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mainLogo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  gap: 6px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  background: #026b5d;
+  border-radius: 100px;
+}
+
+.form-default {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
 }
