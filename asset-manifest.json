@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02c744d4.css",
+    "main.js": "/static/js/main.5327a4d7.js",
+    "static/js/453.c86f05d2.chunk.js": "/static/js/453.c86f05d2.chunk.js",
+    "static/media/logoOrimous.svg": "/static/media/logoOrimous.e9850e8ad28fbe5c570201f209c4396d.svg",
+    "static/media/bigLogo.svg": "/static/media/bigLogo.44f7a0bd6a631b099e6685dff1e811b0.svg",
+    "static/media/navItemDevelop.svg": "/static/media/navItemDevelop.3a72439e1c63bc3eaad41e9e17944208.svg",
+    "static/media/navItemDesign.svg": "/static/media/navItemDesign.516a62d98f7347a78800984d4fd28010.svg",
+    "index.html": "/index.html",
+    "static/media/navItemInfo.svg": "/static/media/navItemInfo.d4446dbbe8bec7c56a524bed5253a216.svg",
+    "static/media/categoryIcon.svg": "/static/media/categoryIcon.6b761ed7fc933fd6c915d34f9c24ceba.svg",
+    "static/media/workIcon.svg": "/static/media/workIcon.2c27e34bbb0cf17b0c00c192156899a3.svg",
+    "main.02c744d4.css.map": "/static/css/main.02c744d4.css.map",
+    "main.5327a4d7.js.map": "/static/js/main.5327a4d7.js.map",
+    "453.c86f05d2.chunk.js.map": "/static/js/453.c86f05d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02c744d4.css",
+    "static/js/main.5327a4d7.js"
+  ]
+}
